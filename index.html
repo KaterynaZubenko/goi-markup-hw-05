@@ -230,7 +230,19 @@
                     <use href="./image/social-defs.svg#icon-linkedin-1"></use>
                 </svg></a></li>
     </ul>
-</div></div>
+</div>
+<div>
+    <form>
+        <span class="sub-footer">Subscribe</span>
+    <label class="subs">
+            <input class='f-mail' type="email" name="email-footer" placeholder="Email">
+            <button type="submit" class="submit-footer"> Subscribe <svg class="icon-svg" width="24" height="20">
+                    <use href="./image/social-defs.svg#iconsend"></use>
+                </svg></button>
+        </label>
+    </form>
+</div>
+</div>
 
 </footer>
 <div data-modal class="backdrop is-hidden" >
@@ -239,10 +251,41 @@
             <use href="./image/social-defs.svg#icon-close"></use>
         </svg>
         </button>
+       <form>
+        <span class="text">Leave your contacts and we will call you back</span>
+
+        <label class="span-first">
+            Name</label>
+            <div class="div-lab">
+            <input class='input' type="text" name="name">  
+            <svg class="modal-icon" width="12" height="12">
+            <use href="./image/social-defs.svg#iconvector5"></use></svg></div>
+    
+        
+
+        <label class="span"> Phone </label>
+           <div class="div-lab"><input class='input' type="tel" name="phone"> <svg class="modal-icon" width="12" height="12">
+            <use href="./image/social-defs.svg#iconvector6"></use> </svg>  </div>
+      
+
+        <label class="span"> Email </label>
+            <div class="div-lab"><input class='input' type="email" name="email"> <svg class="modal-icon" width="12" height="12">
+            <use href="./image/social-defs.svg#iconvector5"></use></svg></div>
+        
+
+
+        <label class="span">  Comment </label>
+            <div class="div-lab"><textarea class='comment' type="text" name="comment" rows="5" placeholder="Text input"></textarea></div>
+        
+ <label>
+      <input class='checkbox' type="checkbox" name="police" value="terms-conditions">
+     I accept the terms and conditions of the <a href=''> Privacy Policy</a>
+    </label>
+<button type="submit" class="submit-button">Send</button>
+       </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>
 </body>
-
 
 </html>
