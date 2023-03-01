@@ -581,7 +581,7 @@ foot-link {transition: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 250ms;
     cursor: pointer;
     transform: rotate(180deg);
     
-}
+} /*jjj*/
 
 .cus-link:focus,
 .cus-link:hover,
