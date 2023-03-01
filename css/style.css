@@ -800,6 +800,7 @@ padding: 8px 0px 8px 16px;}
 .subs {display:flex;
  flex-direction: row;
     margin:0;
+    padding: 0%;
     margin-top: 16px;
 gap: 16px;}
 
