@@ -806,7 +806,7 @@ margin-right: 8px;
 }
 
 .modal-form-check:checked+.modal-form-check-desc::before {background-color: var(--iris); border-color: var(--iris);
-background-image: url(/image/Vector-8.svg);
+background-image: url(../image/Vector-8.svg);
 background-size: contain;
 background-repeat: no-repeat;}
 
